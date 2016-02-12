@@ -16,13 +16,13 @@
     "require": {
         "php": ">=5.5.9",
         "nesbot/Carbon": "~1.9",
-        "illuminate/contracts": "5.2.*",
-        "illuminate/database": "5.2.*",
-        "illuminate/encryption": "5.2.*",
-        "illuminate/events": "5.2.*",
-        "illuminate/hashing": "5.2.*",
-        "illuminate/support": "5.2.*",
-        "illuminate/validation": "5.2.*",
+        "illuminate/contracts": "^5.2",
+        "illuminate/database": "^5.2",
+        "illuminate/encryption": "^5.2",
+        "illuminate/events": "^5.2",
+        "illuminate/hashing": "^5.2",
+        "illuminate/support": "^5.2",
+        "illuminate/validation": "^5.2",
         "watson/validating": "~1.0.0"
     },
     "require-dev": {
@@ -33,7 +33,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Esensi\\Model\\": "src/"
+            "Desuex\\Model\\": "src/"
         }
     },
     "minimum-stability": "stable"

@@ -1,6 +1,6 @@
 {
-    "name": "esensi/model",
-    "description": "The base model traits of Esensi",
+    "name": "desuex/model",
+    "description": "The base model traits of Esensi, Laravel 5.2 support",
     "keywords": ["emersonmedia", "esensi", "laravel", "model", "trait", "eloquent", "validating", "validation", "encrypting", "hashing", "purge", "purging", "soft deleting", "trashing", "cast", "casting", "type", "juggling", "slugs", "sluggable"],
     "authors": [
         {
@@ -16,13 +16,13 @@
     "require": {
         "php": ">=5.5.9",
         "nesbot/Carbon": "~1.9",
-        "illuminate/contracts": "~5.1.0",
-        "illuminate/database": "~5.1.0",
-        "illuminate/encryption": "~5.1.0",
-        "illuminate/events": "~5.1.0",
-        "illuminate/hashing": "~5.1.0",
-        "illuminate/support": "~5.1.0",
-        "illuminate/validation": "~5.1.0",
+        "illuminate/contracts": "5.2.*",
+        "illuminate/database": "5.2.*",
+        "illuminate/encryption": "5.2.*",
+        "illuminate/events": "5.2.*",
+        "illuminate/hashing": "5.2.*",
+        "illuminate/support": "5.2.*",
+        "illuminate/validation": "5.2.*",
         "watson/validating": "~1.0.0"
     },
     "require-dev": {

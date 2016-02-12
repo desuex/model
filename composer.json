@@ -16,13 +16,14 @@
     "require": {
         "php": ">=5.5.9",
         "nesbot/Carbon": "^1.21",
-        "illuminate/contracts": "^5.2",
-        "illuminate/database": "^5.2",
-        "illuminate/encryption": "^5.2",
-        "illuminate/events": "^5.2",
-        "illuminate/hashing": "^5.2",
-        "illuminate/support": "^5.2",
-        "watson/validating": "~2.0"
+        "illuminate/contracts": "5.*",
+        "illuminate/database": "5.*",
+        "illuminate/encryption": "5.*",
+        "illuminate/events": "5.*",
+        "illuminate/hashing": "5.*",
+        "illuminate/support": "5.*",
+        "illuminate/validation": "5.*",
+        "watson/validating": "2.*"
     },
     "require-dev": {
         "fzaninotto/faker": "~1.4",
@@ -34,6 +35,5 @@
         "psr-4": {
             "Desuex\\Model\\": "src/"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
